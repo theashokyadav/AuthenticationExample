@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    EditText for getting User's phone number-->
+    <EditText
+        android:id="@+id/phoneNoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter phone number"
+        android:inputType="phone" />
+
+<!--    Button to get OTP-->
+    <Button
+        android:id="@+id/getOtpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get OTP"/>
+
+    <!--    EditText to Enter OTP-->
+    <EditText
+        android:id="@+id/enterOtpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter OTP"
+        android:inputType="phone" />
+
+    <!--    Button to verify OTP-->
+    <Button
+        android:id="@+id/verifyOtpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Verify OTP"/>
+
+
+
+
+
+
+</LinearLayout>
